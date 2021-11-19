@@ -67,7 +67,7 @@ int get_view(LibreOfficeKitDocument* pThis) {
 };
 
 int get_views_count(LibreOfficeKitDocument* pThis) {
-    return pThis->pClass->getViewsCount(pThis);
+    return pThis->pClass->getViews(pThis);
 };
 
 void paint_tile(LibreOfficeKitDocument* pThis, unsigned char* pBuffer, const int nCanvasWidth, const int nCanvasHeight, const int nTilePosX, const int nTilePosY, const int nTileWidth, const int nTileHeight) {
